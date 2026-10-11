@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#061511">
+<title>Маълумоти пардохт</title>
+<style>
+:root{--bg:#061511;--panel:#0b211b;--panel2:#0e2c23;--green:#38f29b;--green2:#08a85c;--white:#f1fff8;--muted:#a2c2b2;--line:#235640}
+*{box-sizing:border-box}
+body{margin:0;padding:22px;min-height:100vh;display:grid;place-items:center;background:radial-gradient(ellipse at 12% 0%,#164a36 0,transparent 38%),radial-gradient(ellipse at 95% 85%,#0c3c2d 0,transparent 34%),var(--bg);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--white)}
+.wrap{width:min(100%,680px)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 4px 16px}
+.brand{font-weight:850;letter-spacing:.09em;font-size:13px;color:var(--green)}
+.pill{font-size:11px;color:var(--green);border:1px solid #2e7754;background:#0a2a20;border-radius:999px;padding:8px 11px}
+.card{overflow:hidden;border:1px solid #286348;border-radius:26px;background:linear-gradient(155deg,#0d2a21,#071a15 72%);box-shadow:0 25px 80px #0008}
+.hero{padding:25px 25px 22px;position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(115deg,#0b3827,#081e18)}
+.eyebrow{font-size:11px;letter-spacing:.16em;color:var(--green);text-transform:uppercase}
+h1{font-size:clamp(27px,6vw,38px);line-height:1.12;margin:10px 0}
+.hero p{margin:0;max-width:440px;color:var(--muted);font-size:14px;line-height:1.55}
+.spark{display:flex;align-items:end;gap:5px;height:45px;margin-top:20px;max-width:360px}
+.spark span{flex:1;border-radius:4px 4px 0 0;background:linear-gradient(#39f4a0,#126842);opacity:.85}
+.spark span:nth-child(1){height:25%}.spark span:nth-child(2){height:44%}.spark span:nth-child(3){height:34%}.spark span:nth-child(4){height:59%}.spark span:nth-child(5){height:50%}.spark span:nth-child(6){height:76%}.spark span:nth-child(7){height:64%}.spark span:nth-child(8){height:100%}.spark span:nth-child(9){height:80%}.spark span:nth-child(10){height:94%}
+main{padding:24px}
+.notice{padding:12px 14px;border-radius:13px;border:1px solid #66542b;background:#2a2517;color:#f1d995;font-size:12px;line-height:1.5;margin-bottom:22px}
+.sectionlabel{font-size:12px;letter-spacing:.09em;color:var(--muted);margin-bottom:10px}
+.numberbox{display:flex;align-items:center;gap:12px;padding:16px;border:1px solid #2b694b;border-radius:17px;background:linear-gradient(120deg,#0d3325,#081d17)}
+.number{font-size:clamp(18px,4.6vw,27px);font-weight:850;letter-spacing:.045em;overflow-wrap:anywhere;flex:1;min-width:0;color:#b5ffda}
+button{border:0;border-radius:13px;padding:14px 16px;background:linear-gradient(135deg,#47f5a4,#08a95b);color:#052318;font:800 14px system-ui,sans-serif;cursor:pointer;white-space:nowrap;box-shadow:0 6px 22px #0dbd6c25}
+button:focus-visible{outline:3px solid #f1cf68;outline-offset:3px}
+#status{min-height:23px;margin:10px 2px 0;font-size:13px;color:var(--green);font-weight:700}
+.details{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:17px}
+.detail{padding:16px;border:1px solid var(--line);background:#091e18;border-radius:15px}
+.icon{font-size:21px;margin-bottom:10px}
+.small{font-size:12px;color:var(--muted);margin-bottom:6px}
+.detail strong{font-size:18px;overflow-wrap:anywhere}
+.steps{margin-top:18px;padding:17px;border:1px solid #214b39;background:#081d17;border-radius:15px}
+.steps strong{display:block;margin-bottom:7px;font-size:14px}
+.steps p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+footer{padding:16px 22px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:12px;line-height:1.6}
+@media(max-width:460px){body{padding:12px}.numberbox{flex-direction:column;align-items:stretch}.number{padding:4px 0 8px}button{width:100%}.details{grid-template-columns:1fr}.hero{padding:22px}main{padding:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="nav"><div class="brand">PAYMENT DETAILS</div><div class="pill">● Саҳифаи иттилоотӣ</div></div>
+  <section class="card">
+    <header class="hero">
+      <div class="eyebrow">Маълумоти пардохт</div>
+      <h1>Рақами корт<br><span style="color:var(--green)">дар як клик</span></h1>
+      <p>Маълумоти қабулкунанда ва рақами кортро бинед. Барои нусхабардорӣ тугмаи сабзро пахш кунед.</p>
+      <div class="spark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </header>
+    <main>
+      <div class="notice">Муҳим: ин саҳифаи мустақили иттилоотӣ аст, на вебсайти расмии бонк ё платформаи савдо. Пеш аз фиристодани маблағ маълумотро бо соҳиби корт мустақилона тасдиқ кунед. Барои гирифтани бурд ё фоида ба шахсони ношинос пешпардохт накунед.</div>
+      <div class="sectionlabel">РАҚАМИ КОРТ</div>
+      <div class="numberbox">
+        <div class="number" id="cardNumber">2202206322937868</div>
+        <button id="copyBtn" type="button">▢ Нусхабардорӣ</button>
+      </div>
+      <div id="status" role="status" aria-live="polite"></div>
+      <div class="details">
+        <div class="detail"><div class="icon">♙</div><div class="small">Номи қабулкунанда</div><strong>Б А А</strong></div>
+        <div class="detail"><div class="icon">▤</div><div class="small">Бонк</div><strong>Сбербанк</strong></div>
+      </div>
+      <div class="steps"><strong>Чӣ тавр истифода бурдан?</strong><p>1. Тугмаи «Нусхабардорӣ»-ро пахш кунед. 2. Рақамро ба майдони пардохт гузоред. 3. Пеш аз тасдиқ номи қабулкунанда ва маълумоти пардохтро санҷед.</p></div>
+    </main>
+    <footer>Саҳифаи мустақил; бо Сбербанк ё Quotex робитаи расмӣ надорад. Ин саҳифа ягон даромад ё пардохтро кафолат намедиҳад.</footer>
+  </section>
+</div>
+<script>
+const btn=document.getElementById('copyBtn');
+const number=document.getElementById('cardNumber').textContent.trim();
+const status=document.getElementById('status');
+btn.addEventListener('click',async()=>{
+  try{await navigator.clipboard.writeText(number);status.textContent='✓ Рақами корт нусхабардорӣ шуд.';}
+  catch(e){
+    const field=document.createElement('textarea');field.value=number;field.style.position='fixed';field.style.opacity='0';
+    document.body.appendChild(field);field.select();const ok=document.execCommand('copy');field.remove();
+    status.textContent=ok?'✓ Рақами корт нусхабардорӣ шуд.':'Рақамро интихоб карда, нусхабардорӣ кунед.';
+  }
+});
+</script>
+</body>
+</html>
